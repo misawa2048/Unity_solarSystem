@@ -130,3 +130,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sunGo: {fileID: 0}
   targetGo: {fileID: 0}
+  m_lerpRate: 0.05
