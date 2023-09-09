@@ -13,9 +13,9 @@ namespace Sol
         // Start is called before the first frame update
         void Start()
         {
-            for(int y = -5; y < 6; y++)
+            for(int y = -30; y < 31; y++)
             {
-                for(int x = -10; x < 10; x++)
+                for(int x = -50; x < 51; x++)
                 {
                     SOL_Panel panel = Instantiate(m_panelPrefab).GetComponent<SOL_Panel>();
                     panel.transform.SetParent(transform, false);
